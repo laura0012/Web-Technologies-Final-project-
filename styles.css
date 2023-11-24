@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(175, 212, 255);
+}
+#contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contactForm:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.494);
+}
+#contactForm{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+#btnContact{
+    width: 78px;
+    border: none;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    margin: 15px auto 0;
+    padding: 5px;
+    cursor: pointer;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+#btnContact:hover{
+    background-color: rgb(4, 75, 155);
+    color: white;
+    border: 1px solid black;
+}
+.app{
+    padding: 2vw 4vw;
+    display: flex;
+    flex-direction: column;
+    background-color:  white;
+    width: 90%;
+    max-width: 600px;
+    margin: 127px auto 0;
+    border-radius: 15px;
+    border:1px solid black;
+    padding: 2vw 4vw;
+}
+.app:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.494);
+}
+.app h4{
+    font-weight: 600;
+    color: black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.app h5{
+    font-weight: 500;
+    color:rgb(4, 75, 155);
+}
+.quiz{
+    padding: 20px 0;
+}
+.btnn{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+.btnn:hover:not([disabled]){
+    background-color: black;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.btnn:disabled{
+    cursor: no-drop;
+}
+.correct{
+    background-color: black;
+    color: white;
+}
+.incorrect{
+    background-color: rgb(192, 26, 26);
+    color: white;
+}
+form h4{
+    padding-bottom: 30px;
+    color: black;
+    font-weight: 750;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#next-btnn{
+    width: 78px;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    margin-left: 43%;
+    margin-top: 28px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: large;
+    display: none;
+}
+#next-btnn:hover{
+    background-color: rgb(4, 75, 155);
+    color: #ffffff;
+}
+#search{
+    height: 38px;
+    margin: auto;
+}
+form input, form textarea{
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 15px;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+#list{
+    margin-top: 30px;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    height: 350px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.494);
+}
+#list:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.494);
+}
+#list h4, #idd{
+    margin-left: 25px;
+    color: rgb(4, 75, 155);
+    font-weight: 750;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#list h5{
+    font-weight: 700;
+    color: rgb(4, 75, 155);
+}
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+#p11{
+    color: black;;
+}
+i{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#img1{
+    margin-left: 20px;
+    border: 1px solid black;
+}
+#img2{
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+.icon-paragraph {
+    display: flex;
+    align-items: center;
+}
+.icon-paragraph i {
+    margin-right: 0;
+}
+#div11{
+    margin-top: 1000px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.494);
+    transition: 0.3s;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.494);
+}
+.carousel{
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.494);
+}
+h5{
+    font-weight: 700;
+    color: rgb(4, 75, 155);
+}
+h3{
+    text-align: center;
+    font-weight: 700;
+    color: rgb(4, 75, 155);
+}
+@keyframes changeColor{
+    0% { color: red; }
+    25% { color: rgb(0, 115, 255); }
+    50% { color: rgb(60, 199, 60); }
+    75% { color: rgb(255, 110, 200); }
+    100% { color: rgb(255, 153, 0); }
+}
+.color-change h3{
+    animation: changeColor 4s infinite;
+}
+.color-change{
+    margin-top: 5px;;
+    text-align: center;
+}
+#i11{
+    text-align: center;
+    font-weight: 700;
+    color: rgb(134, 191, 255);
+}
+#i22{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
